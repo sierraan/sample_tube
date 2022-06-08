@@ -21,7 +21,7 @@ services:
       dockerfile: Dockerfile
     container_name: video-streaming
     ports:
-      - "4000:80"
+      - "4001:80"
     environment:
       - PORT=${PORT}
       - VIDEO_STORAGE_HOST=video-storage
